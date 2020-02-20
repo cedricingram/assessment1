@@ -1,0 +1,38 @@
+body{
+    background-image: url("../images/background.jpeg");
+    background-position: center;
+}
+
+h1{
+    text-transform: lowercase;
+    text-align: center;
+}
+
+main{
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*justify-content: center;*/
+}
+
+img{
+    width: 125px;
+    margin-bottom: 10px;
+    /*Your code here*/
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+div{
+    padding: 25px;
+    margin:5px;
+    /* YOUR CODE HERE */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6, 1fr);
+}
+
+@media screen and (min-width: 1024px) {
+
+}
+
